@@ -28,20 +28,20 @@ int main() {
   printf("calling twotopower: 2 raised to the power %i is %i\n\n", num, ans);
 
 
-  int sum = add(a, b);
-  printf("calling add: sum of %i and %i is %i\n\n", a, b, sum);
+  int sum = add_nums(a, b);
+  printf("calling add_nums: sum of %i and %i is %i\n\n", a, b, sum);
 
 
-  int diff = sub(a, b);
-  printf("calling sub: difference of %i and %i is %i\n\n", a, b, diff);
+  int diff = sub_nums(a, b);
+  printf("calling sub_nums: difference of %i and %i is %i\n\n", a, b, diff);
 
 
-  int product = mul(a, b);
-  printf("calling mul: product of %i and %i is %i\n\n", a, b, product);
+  int product = mul_nums(a, b);
+  printf("calling mul_nums: product of %i and %i is %i\n\n", a, b, product);
 
 
-  int quotient = div(a, b);
-  printf("calling div: %i divided by %i is %i\n\n", a, b, quotient);
+  int quotient = div_nums(a, b);
+  printf("calling div_nums: %i divided by %i is %i\n\n", a, b, quotient);
 
   
   return 0;
