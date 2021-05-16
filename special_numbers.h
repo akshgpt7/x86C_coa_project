@@ -1,1 +1,0 @@
-int findsquare(int num);
